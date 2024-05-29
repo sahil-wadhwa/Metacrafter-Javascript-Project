@@ -1,0 +1,26 @@
+.product-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    background-color: aqua;
+}
+.date-card{
+    align-self: start;
+    user-select: none;
+}
+.item-name{
+    justify-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    /* font-weight: bold; */
+}
+.item-price{
+    padding-right: 2px;
+    font-size: 0.75rem;
+    user-select: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
